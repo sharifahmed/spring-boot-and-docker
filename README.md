@@ -24,4 +24,6 @@ docker container commit --change='CMD ["java", "-jar", "/tmp/greetings:0.0.1.jar
 
 Creating a docker image using gradle docker plugin:
 ./gradlew docker build - builds the greetings app and creates a docker image
+
+docker push sharifahmed/greetings:0.0.1 - Push docker images to docker hub
 ~~~
